@@ -17,7 +17,6 @@ print(Networks)
 
 with open('exclude.txt') as temp_file:
   Excludes = [line.rstrip('\n') for line in temp_file]
-print(Excludes)
 
 #Expand Networks
 for network in Networks:
